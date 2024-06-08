@@ -22,6 +22,7 @@ class Usuario{
 }
 
 saludar((fecha.toLocaleDateString()) +'\nBienvenido al sistema de calculo de sueldos ')
+console.log('Datos que se mostraran por console log:')
 
 while(menu != 0){
     let menu = prompt('Ingrese una opcion \n 1- Ingresar datos de usuarios \n 2 - Ver Listado de usuarios \n 3 - Eliminar usuarios de la lista \n 0 - Salir');
@@ -60,7 +61,7 @@ while(menu != 0){
     }else if(menu == ''){
         console.log('No es valido');
     } else if(menu == 0) {
-        alert('Gracias por utilizar el simulador de sueldos');
+        alert('Gracias por utilizar el simulador de sueldos \n Eduardo Ezequiel Gomez - JavaScript #71340');
         break;
     }
 }
