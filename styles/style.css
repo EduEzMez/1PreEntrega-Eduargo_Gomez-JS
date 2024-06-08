@@ -7,13 +7,14 @@
 
 header{
     width: 100%;
-    height: 100dvh;
+    height: 20dvh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-section{
+section .top{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,4 +41,62 @@ section p{
     font-size: 10px;
     color: cornsilk;
     text-shadow: 1px 1px 3px black;
+}
+
+main{
+    height: 110dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor_formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_formulario div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedor_formulario label{
+    color: white;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor_formulario input{
+    color: black;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    height:35px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor_formulario button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 60px;
+    width: 200px;
+    border-color: aliceblue;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor_formulario textarea{
+    resize: none;
+    margin-top: 10px;
+    color: white;
+    width: 400px;
+    height: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
